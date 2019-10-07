@@ -1,0 +1,17 @@
+
+
+.header {
+    background-color: rgb(200, 255, 149);
+    grid-area: h;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logoImg {
+    width: 150px;
+  }
+
+.login a {
+  color: black;
+  font-weight: bold;
+}

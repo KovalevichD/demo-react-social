@@ -1,0 +1,96 @@
+.wrapperGlobal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.numberPage {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.activePage {
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.button {
+    background-color: rgb(23, 97, 20);
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    align-self: center;
+}
+
+.button:hover {
+    background-color: rgb(55, 85, 55);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 680px;
+}
+
+.wrapperMain {
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+    height: 80px;
+    margin-left: 15px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 10px 17px;
+}
+
+.wrapperIcon {
+    display: flex;
+}
+
+.userIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userIcon img {
+    width: 50px;
+    display: block;
+}
+
+/* .userIcon button {
+    background-color: rgb(23, 97, 20);
+    border-radius: 5px;
+    width: 90px;
+    padding: 5px 0px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.userIcon button:hover {
+    background-color: rgb(55, 85, 55);
+} */
+
+.name,
+.locationCity,
+.locationCountry {
+    font-weight: bold;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

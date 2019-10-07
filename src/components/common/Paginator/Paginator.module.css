@@ -1,0 +1,21 @@
+
+.numberPage,
+.activePage {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 5px;
+    border: 2px solid rgb(58, 58, 58);
+    line-height: 25px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    
+}
+
+.numberPage:hover {
+    background-color: rgb(116, 116, 116);
+}
+
+.activePage {
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.dialogs {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+
+.dialog {
+  padding: 10px;
+}
+
+.dialog a {
+  text-decoration: none;
+  color: #000;
+  transition: .1s;
+}
+
+.dialog a:hover {
+  font-weight: bold;
+}
+
+.message {
+  padding: 10px;
+}

@@ -1,0 +1,9 @@
+.myPosts {
+    padding: 10px;
+}
+
+.sendButton {
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

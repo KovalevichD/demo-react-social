@@ -1,0 +1,19 @@
+#root {
+  background-color: rgb(233, 229, 229);
+  box-sizing: border-box;
+}
+
+.wrap {
+  box-sizing: border-box;
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 120px auto;
+  grid-template-areas: 
+  "h h"
+  "n m";
+  grid-gap: 10px;
+}
+
+
